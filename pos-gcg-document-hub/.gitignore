@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+/tmp/
+
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Documentation (exclude all markdown files except README.md)
+*.md
+!README.md
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Local data storage (exclude CSV and uploaded files, keep database)
+data/
+web-output/
+backend/uploads/
+backend/outputs/
+backend/exports/
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.pyc
+
+# Database (keep only the main database in backend folder)
+# backend/gcg_database.db is tracked
+gcg_database.db
+gcg_data.db
+
+# Test and temporary files
+test_*.py
+*_test.py
+*.tmp
+*.bak
+
+# Build artifacts
+build/
+*.egg-info/
